@@ -51,7 +51,9 @@ pip install smtplib twilio
 
 4. Execute o programa:
 
+```bash
 python monitor.py
+```
 
 ## Contribuição
 
