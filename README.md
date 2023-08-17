@@ -19,13 +19,23 @@ Este é um projeto simples em Python para monitorar a integridade de arquivos em
 
 1. Clone o repositório para sua máquina local:
 
-git clone https://github.com/yourusername/integrity-monitoring-project.git
-cd integrity-monitoring-project
+```bash
+git clone https://github.com/EfySecurity/integrity-monitoring.git
+```
+
+```bash
+cd integrity-monitoring
+```
 
 2. Instale as dependências necessárias usando o pip:
 
+```bash
 pip install smtplib twilio
+```
 
+`Lembre-se de ajustar as configurações de e-mail, Twilio, diretório monitorado e outras variáveis conforme necessário. Este exemplo é uma versão mais completa que incorpora notificações por e-mail e SMS, criação de relatórios em HTML e monitoramento contínuo da integridade dos arquivos em um diretório específico. Certifique-se de ter as bibliotecas smtplib, twilio e suas dependências instaladas.`
+
+`Lembre-se de substituir as variáveis, como yourusername e os detalhes de configuração do Gmail e do Twilio, pelas suas informações reais.`
 
 3. Configure as variáveis no início do arquivo `monitor.py`:
 
